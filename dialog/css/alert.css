@@ -1,0 +1,107 @@
+.alert { 
+	position: fixed;
+	border: 1px solid #000;
+	width: 500px;
+	height: 300px;
+	left: 50%;
+	top : 100px;
+	box-shadow: 0 0 12px rgba(0,0,0,.5);
+	background: #fff;
+}
+
+.alert_mask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: black;
+	opacity: 0.5;
+}
+
+.alert_header{
+	background: #333;
+	text-align: center;
+	font: 16px;
+	color: #fff;
+	padding: 5px 0;
+}
+
+.alert_body{
+	padding: 10px;
+	text-align: center;
+}
+
+.alert_footer{
+	width: 100%;
+	position: absolute;
+	bottom : 0;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+
+.alert_button {
+/*	width: 50px;
+	margin-left: -25px;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;*/
+	cursor: pointer;
+}
+
+.alert_close {
+	position: absolute;
+	right : 0;
+	top : 0;
+	cursor: pointer;
+	color: #fa0;
+	/*background: #fa0;*/
+	font-size: 18px;
+	padding: 5px 10px;
+}
+
+.alert_confirm_button {
+	cursor: pointer;
+}
+
+.alert_cancel_button {
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+
+
+/*====================skin a===================*/
+
+.skin_a.alert{
+	box-shadow: nono;
+	border: 10px solid rgba(0,0,0,.9);
+	border-radius: 8px;
+}
+
+.skin_a .alert_header{
+	background: red;
+	text-align: center;
+	font: 16px;
+	color: #fff;
+	padding: 5px 0;
+}
+
+.skin_a .alert_body{
+	padding: 10px;
+	text-align: left;
+}
+
+.skin_a .alert_button {
+	width: 50px;
+	/*margin-left: -25px;*/
+	position: absolute;
+	right : 10%;
+	bottom: 10px;
+	color: red;
+	cursor: pointer;
+}
+
+
+
